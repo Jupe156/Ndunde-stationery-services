@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; script-src 'self'; form-action https://formsubmit.co; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), camera=(), microphone=()">
+  <title>Contact Us - Ndunde Stationery Services</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <img src="images/jupecik-logo.svg" alt="Ndunde Stationery Services logo" class="jupecik">
+        <span class="brand-name">Ndunde Stationery Services</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact">
+    <div class="container1">
+      <h2>Get in Touch</h2>
+      <p>We’d love to hear from you! Whether you have a question about our services or want to join our WhatsApp market, feel free to reach out.</p>
+      <form action="https://formsubmit.co/juliuspex5@gmail.com" method="post">
+        <input type="hidden" name="_subject" value="New Contact Message - Ndunde Stationery Services">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" autocomplete="name" minlength="2" maxlength="60" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="email" maxlength="120" required>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" autocomplete="tel" pattern="[0-9+\-\s]{8,20}" maxlength="20" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" minlength="10" maxlength="1200" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-shell">
+      <div class="footer-brand">
+        <img src="images/jupecik-logo.svg" alt="Ndunde Stationery Services logo" class="footer-logo">
+        <h3>Ndunde Stationery Services</h3>
+        <p>Your one-stop center for stationery, SIM support, education, and digital services.</p>
+      </div>
+
+      <div class="footer-column footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html"><span class="footer-item-icon" aria-hidden="true">&#8962;</span>Home</a></li>
+          <li><a href="about.html"><span class="footer-item-icon" aria-hidden="true">&#8505;</span>About Us</a></li>
+          <li><a href="services.html"><span class="footer-item-icon" aria-hidden="true">&#9881;</span>Services</a></li>
+          <li><a href="contact.html"><span class="footer-item-icon" aria-hidden="true">&#9993;</span>Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column footer-services">
+        <h4>What We Offer</h4>
+        <ul>
+          <li>Printing and Design</li>
+          <li>SIM Card Services</li>
+          <li>Computer Lessons</li>
+          <li>Web Development Training</li>
+        </ul>
+      </div>
+
+      <div class="footer-column footer-contact">
+        <h4>Get In Touch</h4>
+        <p>Need support or want to work with us?</p>
+        <ul class="footer-contact-list">
+          <li><a href="tel:0993278712"><span class="footer-item-icon" aria-hidden="true">&#9742;</span>0993278712</a></li>
+          <li><a href="tel:0880531018"><span class="footer-item-icon" aria-hidden="true">&#9742;</span>0880531018</a></li>
+        </ul>
+        <a href="contact.html" class="footer-cta"><span class="footer-item-icon" aria-hidden="true">&#9993;</span>Reach Out</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Ndunde Stationery Services. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="nav.js"></script>
+</body>
+</html>

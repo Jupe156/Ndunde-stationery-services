@@ -1,0 +1,40 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Ndunde Stationery Services Logo</title>
+  <desc id="logoDesc">Logo combining a stationery paper sheet, mobile signal bars, and an education cap to reflect the business services.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#15345F"/>
+      <stop offset="100%" stop-color="#214A7D"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EAF1FF"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD65C"/>
+      <stop offset="100%" stop-color="#FFB347"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="16" y="16" width="288" height="288" rx="64" fill="url(#bgGrad)"/>
+  <rect x="24" y="24" width="272" height="272" rx="56" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+
+  <rect x="74" y="70" width="132" height="178" rx="18" fill="url(#paperGrad)"/>
+  <path d="M170 70H206V106H185C176 106 170 99 170 90V70Z" fill="#D6E4FF"/>
+  <rect x="92" y="116" width="96" height="8" rx="4" fill="#2A4E7E" opacity="0.8"/>
+  <rect x="92" y="136" width="96" height="8" rx="4" fill="#2A4E7E" opacity="0.8"/>
+  <rect x="92" y="156" width="70" height="8" rx="4" fill="#2A4E7E" opacity="0.8"/>
+
+  <rect x="228" y="156" width="14" height="18" rx="4" fill="url(#accentGrad)"/>
+  <rect x="246" y="146" width="14" height="28" rx="4" fill="url(#accentGrad)"/>
+  <rect x="264" y="136" width="14" height="38" rx="4" fill="url(#accentGrad)"/>
+
+  <path d="M66 228L140 194L214 228L140 262L66 228Z" fill="#0F2D56"/>
+  <rect x="135" y="224" width="10" height="34" fill="#0F2D56"/>
+  <path d="M212 228L246 244V258L240 256V246L212 232V228Z" fill="#0F2D56"/>
+  <circle cx="240" cy="260" r="6" fill="url(#accentGrad)"/>
+
+  <circle cx="252" cy="82" r="20" fill="url(#accentGrad)"/>
+  <path d="M245 82L251 88L261 76" fill="none" stroke="#15345F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
